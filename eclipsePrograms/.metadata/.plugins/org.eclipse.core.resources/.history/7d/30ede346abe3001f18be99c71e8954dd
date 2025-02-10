@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class highest {
+	 
+	 
+	 static  boolean checkTheGreatest(int num1,int num2)
+	 {
+		 
+		 Scanner scan= new Scanner(System.in);
+		 
+		 
+		// num1=scan.nextInt();
+
+		 //num2=scan.nextInt();
+		 
+		 
+		 if(num1>num2 )
+		 {
+			 
+			 System.out.println(num1);
+		 }
+
+		 return  true;
+	 }
+	 
+	 
+	 
+	 public static void main(String[] args)
+	 {
+		 
+		 
+		checkTheGreatest(6,5);
+		 
+	 }
+
+}

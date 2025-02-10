@@ -1,0 +1,26 @@
+
+public class average {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	//wap from 100 to 1
+		                                                          
+		for(char a='a'; a<='z';a++ ) //    a   a<
+		{
+			
+			for(char b ='z' ; b<'a';b--)
+				
+		{
+				
+				System.out.println( a );
+				System.out.println(b);
+				
+			}		
+			}
+		
+		
+		
+	}
+
+}
